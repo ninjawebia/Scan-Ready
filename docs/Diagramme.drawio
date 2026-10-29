@@ -1,0 +1,82 @@
+<mxfile host="app.diagrams.net">
+  <diagram name="Page-1" id="QV3N5VsnxlNfsID2k9pH">
+    <mxGraphModel dx="1296" dy="809" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="827" pageHeight="1169" math="0" shadow="0">
+      <root>
+        <mxCell id="0" />
+        <mxCell id="1" parent="0" />
+        <mxCell id="L5PXhVjktebjY811I0h5-1" parent="1" style="rounded=1;whiteSpace=wrap;html=1;roundedPerimeter=1;" value="Caisse" vertex="1">
+          <mxGeometry height="60" width="120" x="60" y="190" as="geometry" />
+        </mxCell>
+        <mxCell id="L5PXhVjktebjY811I0h5-4" edge="1" parent="1" source="L5PXhVjktebjY811I0h5-2" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;defaultLabelBackgroundColor=page;" value="">
+          <mxGeometry relative="1" as="geometry">
+            <mxPoint x="160" y="200" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="L5PXhVjktebjY811I0h5-2" parent="1" style="shape=umlActor;verticalLabelPosition=bottom;verticalAlign=top;html=1;outlineConnect=0;labelPerimeter=1;" value="Manager restaurant&lt;span style=&quot;white-space: pre;&quot;&gt;&#x9;&lt;/span&gt;" vertex="1">
+          <mxGeometry height="60" width="30" x="105" y="70" as="geometry" />
+        </mxCell>
+        <mxCell id="L5PXhVjktebjY811I0h5-5" parent="1" style="shape=note;whiteSpace=wrap;html=1;backgroundOutline=1;darkOpacity=0.05;" value="Ticket avec QR code&lt;span style=&quot;white-space: pre;&quot;&gt;&#x9;&lt;/span&gt;" vertex="1">
+          <mxGeometry height="100" width="80" x="90" y="310" as="geometry" />
+        </mxCell>
+        <mxCell id="L5PXhVjktebjY811I0h5-6" edge="1" parent="1" source="L5PXhVjktebjY811I0h5-1" style="endArrow=classic;html=1;rounded=0;defaultLabelBackgroundColor=page;entryX=0.413;entryY=-0.01;entryDx=0;entryDy=0;entryPerimeter=0;" target="L5PXhVjktebjY811I0h5-5" value="">
+          <mxGeometry height="50" relative="1" width="50" as="geometry">
+            <mxPoint x="140" y="440" as="sourcePoint" />
+            <mxPoint x="190" y="390" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="L5PXhVjktebjY811I0h5-9" edge="1" parent="1" source="L5PXhVjktebjY811I0h5-7" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;defaultLabelBackgroundColor=page;" value="">
+          <mxGeometry relative="1" as="geometry">
+            <mxPoint x="355" y="170" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="L5PXhVjktebjY811I0h5-10" edge="1" parent="1" source="L5PXhVjktebjY811I0h5-7" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;defaultLabelBackgroundColor=page;shadow=1;" target="L5PXhVjktebjY811I0h5-2">
+          <mxGeometry relative="1" x="-0.0856" as="geometry">
+            <Array as="points">
+              <mxPoint x="210" y="230" />
+              <mxPoint x="210" y="100" />
+            </Array>
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="L5PXhVjktebjY811I0h5-7" parent="1" style="shape=umlActor;verticalLabelPosition=bottom;verticalAlign=top;html=1;outlineConnect=0;labelPerimeter=1;" value="Cleint" vertex="1">
+          <mxGeometry height="60" width="30" x="414" y="200" as="geometry" />
+        </mxCell>
+        <mxCell id="L5PXhVjktebjY811I0h5-11" parent="1" style="text;html=1;whiteSpace=wrap;overflow=hidden;rounded=0;" value="Cleint passe une commande" vertex="1">
+          <mxGeometry height="120" width="180" x="280" y="150" as="geometry" />
+        </mxCell>
+        <mxCell id="L5PXhVjktebjY811I0h5-13" edge="1" parent="1" source="L5PXhVjktebjY811I0h5-11" style="endArrow=none;html=1;rounded=0;defaultLabelBackgroundColor=page;exitX=0.989;exitY=0.933;exitDx=0;exitDy=0;exitPerimeter=0;" target="L5PXhVjktebjY811I0h5-5" value="">
+          <mxGeometry height="50" relative="1" width="50" x="-0.2269" as="geometry">
+            <Array as="points">
+              <mxPoint x="460" y="300" />
+            </Array>
+            <mxPoint x="390" y="450" as="sourcePoint" />
+            <mxPoint x="440" y="370" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="L5PXhVjktebjY811I0h5-18" edge="1" parent="1" source="L5PXhVjktebjY811I0h5-14" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;defaultLabelBackgroundColor=page;" target="L5PXhVjktebjY811I0h5-17" value="">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="L5PXhVjktebjY811I0h5-14" parent="1" style="text;html=1;whiteSpace=wrap;strokeColor=none;fillColor=none;align=center;verticalAlign=middle;rounded=0;" value="Client scanne le QR code" vertex="1">
+          <mxGeometry height="30" width="60" x="460" y="300" as="geometry" />
+        </mxCell>
+        <mxCell id="L5PXhVjktebjY811I0h5-20" edge="1" parent="1" source="L5PXhVjktebjY811I0h5-17" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;defaultLabelBackgroundColor=page;" target="L5PXhVjktebjY811I0h5-19" value="">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="L5PXhVjktebjY811I0h5-17" parent="1" style="rounded=1;whiteSpace=wrap;html=1;" value="dans le smartphone du client&amp;nbsp;Un lien s&#39;ouvre dans le navigateur avec le numéro de commande&amp;nbsp;" vertex="1">
+          <mxGeometry height="60" width="180" x="430" y="395" as="geometry" />
+        </mxCell>
+        <mxCell id="L5PXhVjktebjY811I0h5-19" parent="1" style="rhombus;whiteSpace=wrap;html=1;shapeInside=1;rounded=1;" value="C&#39;est l&#39;application Scan&amp;amp;ready coté client" vertex="1">
+          <mxGeometry height="80" width="80" x="740" y="385" as="geometry" />
+        </mxCell>
+        <mxCell id="L5PXhVjktebjY811I0h5-23" edge="1" parent="1" source="L5PXhVjktebjY811I0h5-21" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;defaultLabelBackgroundColor=page;" target="L5PXhVjktebjY811I0h5-22" value="">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="L5PXhVjktebjY811I0h5-21" parent="1" style="text;html=1;whiteSpace=wrap;strokeColor=none;fillColor=none;align=center;verticalAlign=middle;rounded=0;" value="Si client prête le manager touche sur le numéro de la commande dans l&#39;application coté manager" vertex="1">
+          <mxGeometry height="30" width="320" x="40" y="500" as="geometry" />
+        </mxCell>
+        <mxCell id="L5PXhVjktebjY811I0h5-22" parent="1" style="whiteSpace=wrap;html=1;" value="Smartphone client sonne" vertex="1">
+          <mxGeometry height="60" width="120" x="140" y="595" as="geometry" />
+        </mxCell>
+      </root>
+    </mxGraphModel>
+  </diagram>
+</mxfile>
